@@ -1,12 +1,21 @@
 <template>
   <div id="app">
-    <h1>Yup</h1>
+    <my-header></my-header>
+    <router-view></router-view>
+    <my-footer></my-footer>
   </div>
 </template>
 
 <script>
+import MyHeader from '../src/components/Header';
+import MyFooter from '../src/components/Footer';
+
 export default {
   name: 'app',
+  components: {
+    'my-header': MyHeader,
+    'my-footer': MyFooter,
+  },
   data () {
     return {
     }
