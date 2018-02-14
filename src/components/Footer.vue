@@ -1,7 +1,8 @@
 <template>
-    <div class="header-wrapper">
-        <p>This is a footer</p>
-    </div>
+    <v-footer class="pa-3" app="true">
+    <v-spacer></v-spacer>
+    <div>&copy; {{ new Date().getFullYear() }}</div>
+  </v-footer>
 </template>
 
 <script>
@@ -18,8 +19,4 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/style/defaults';
 
-    .header-wrapper {
-        display: block;
-        color: $accent;
-    }
 </style>

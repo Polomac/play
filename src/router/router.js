@@ -6,7 +6,6 @@ import contact from '../components/Contact';
 
 Vue.use(VueRouter);
 
-// Use async route components needed for code splitting
 export function createRouter() {
     return new VueRouter({
         mode: 'history',
@@ -28,7 +27,7 @@ export function createRouter() {
         {
             name: contact,
             path: '/contact',
-            component: () => import(/* webpackChunkName: "about" */ '../components/Contact.vue'),
+            component: () => import(/* webpackChunkName: "contact" */ '../components/Contact.vue'),
         }]
     });
 }

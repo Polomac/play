@@ -1,9 +1,8 @@
 <template>
     <div class="header-wrapper">
-        <p>This is a header</p>
-        <router-link to="/about">About</router-link>
-        <router-link to="/blog">Blog</router-link>
-        <router-link to="/contact">Contact</router-link>
+        <v-btn color="success" to="/about" append="true">About</v-btn>
+        <v-btn color="success" to="/blog" append="true">Blog</v-btn>
+        <v-btn color="success" to="/contact" append="true">Contact</v-btn>
     </div>
 </template>
 
@@ -23,6 +22,6 @@ export default {
 
     .header-wrapper {
         display: block;
-        color: $accent;
+        color: $primary;
     }
 </style>

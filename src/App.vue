@@ -1,8 +1,12 @@
 <template>
   <div id="app">
-    <my-header></my-header>
-    <router-view></router-view>
-    <my-footer></my-footer>
+    <v-app>
+      <v-content class="blue">
+        <my-header></my-header>
+        <router-view></router-view>
+        <my-footer></my-footer>
+      </v-content>
+    </v-app>
   </div>
 </template>
 

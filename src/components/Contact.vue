@@ -20,6 +20,6 @@ export default {
 
     .header-wrapper {
         display: block;
-        color: $accent;
+        color: $primary;
     }
 </style>
