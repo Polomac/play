@@ -1,7 +1,7 @@
 <template>
     <v-footer app fixed>
         <v-spacer></v-spacer>
-        <div>&copy; {{ new Date().getFullYear() }}</div>
+        <div class="footer-label blue-grey--text text--lighten-3">Footer</div>
   </v-footer>
 </template>
 
@@ -18,5 +18,12 @@ export default {
 
 <style lang="scss" scoped>
 @import '../assets/style/defaults';
+
+    .footer-label {
+        padding: 0 1em;
+        font-size: 0.875em;
+        font-weight: bold;
+        text-shadow: 0px -1px 1px $primary;
+    }
 
 </style>

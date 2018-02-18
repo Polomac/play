@@ -33,10 +33,7 @@ export default {
 
 #app {
   text-align: center;
+  font-family: $regular;
 }
 
-h1 {
-  font-family: $headlines ;
-  color: $accent;
-}
 </style>
