@@ -1,6 +1,6 @@
 # vue-play
 
-> My leasure time playground for vue, vuetify and various npm's
+> My leasure time playground for vue, vuetify and various npms
 
 ## Build Setup
 

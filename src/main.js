@@ -5,6 +5,7 @@ import { createRouter } from '../src/router/router.js';
 import 'vuetify/dist/vuetify.min.css';
 
 Vue.use(Vuetify);
+
 const router = createRouter();
 
 new Vue({

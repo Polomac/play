@@ -1,10 +1,10 @@
 <template>
     <div>
         <div class="description blue--text text--darken-3">
-            Contact
+            Home
         </div>
         <div class="description desc-content blue--text text--darken-3">
-            <p>Contact form placeholder</p>
+            <p>Intro & description placeholder</p>
         </div>
     </div>
 </template>
@@ -12,7 +12,7 @@
 <script>
 
 export default {
-    name: 'contact',
+    name: 'home',
     data () {
         return {
         }
